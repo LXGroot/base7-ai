@@ -52,7 +52,7 @@ const MobileMenu = ({
         <>
           {/* 背景遮罩 */}
           <motion.div
-            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"
+            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[58]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -62,7 +62,7 @@ const MobileMenu = ({
           {/* 菜单内容 */}
           <motion.div
             className={cn(
-              "fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl z-50 overflow-y-auto",
+              "fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl z-[60] overflow-y-auto",
               className
             )}
             initial={{ x: '100%' }}
