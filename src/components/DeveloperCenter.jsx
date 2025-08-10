@@ -232,7 +232,7 @@ getDeviceData();`
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-12 text-center tracking-tight">
             API服务
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -287,7 +287,7 @@ getDeviceData();`
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-12 text-center tracking-tight">
             SDK下载
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -330,7 +330,7 @@ getDeviceData();`
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-12 text-center tracking-tight">
             代码示例
           </h3>
           <div className="space-y-8">
@@ -367,7 +367,7 @@ getDeviceData();`
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-12 text-center tracking-tight">
             开发者资源
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
