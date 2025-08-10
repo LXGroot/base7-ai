@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { LazyImage } from '@/components/ui/lazy-image'
 import MobileMenu from '@/components/ui/mobile-menu'
 import { Menu, X, ChevronDown } from 'lucide-react'
 
@@ -45,7 +44,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <a href="#home" className="flex items-center group cursor-pointer">
               <div className="relative">
-                <LazyImage 
+                <img 
                   src="./logo bai-k1.png" 
                   alt="柒进制科技 Logo" 
                   className="h-8 w-8 sm:h-10 sm:w-10 lg:h-12 lg:w-12 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 filter drop-shadow-md group-hover:drop-shadow-lg image-render-crisp" 
