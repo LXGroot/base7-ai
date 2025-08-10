@@ -46,7 +46,7 @@ const Header = () => {
             <a href="#home" className="flex items-center group cursor-pointer">
               <div className="relative">
                 <LazyImage 
-                  src="./base7-optimized-logo.svg" 
+                  src="./logo bai-k1.png" 
                   alt="柒进制科技 Logo" 
                   className="h-8 w-8 sm:h-10 sm:w-10 lg:h-12 lg:w-12 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 filter drop-shadow-md group-hover:drop-shadow-lg" 
                 />
