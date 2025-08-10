@@ -1,0 +1,42 @@
+<svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded rectangle -->
+  <rect x="0" y="0" width="512" height="512" rx="120" ry="120" fill="url(#bgGradient)"/>
+  
+  <!-- White frame -->
+  <path d="M 108 108 
+           L 404 108
+           L 404 404
+           L 108 404
+           Z
+           M 172 172
+           L 340 172
+           L 340 340
+           L 172 340
+           Z" 
+        fill="#F3F4F6" fill-rule="evenodd"/>
+  
+  <!-- Number 7 -->
+  <path d="M 220 220
+           L 340 220
+           L 340 260
+           L 280 260
+           L 280 380
+           C 280 400, 270 420, 250 430
+           L 230 440
+           C 220 445, 210 440, 210 430
+           L 210 420
+           C 210 410, 215 400, 225 395
+           L 240 385
+           L 240 260
+           L 220 260
+           Z" 
+        fill="#F3F4F6"/>
+</svg>
