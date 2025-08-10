@@ -111,7 +111,7 @@ const TechArchitecture = () => {
   ]
 
   return (
-    <section id="technology" className="py-20 bg-gray-50 scroll-mt-16">
+    <section id="technology" className="py-20 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -121,10 +121,10 @@ const TechArchitecture = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
             技术架构
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light tracking-wide leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light tracking-wide leading-relaxed">
             基于现代化技术栈构建的可扩展、高可用、安全可靠的技术架构体系
           </p>
         </motion.div>
@@ -137,7 +137,7 @@ const TechArchitecture = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-12 text-center tracking-tight">
             分层架构设计
           </h3>
           
@@ -246,7 +246,7 @@ const TechArchitecture = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-slate-900 mb-8 text-center tracking-tight">
+          <h3 className="text-3xl font-bold text-white mb-8 text-center tracking-tight">
             核心技术栈
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

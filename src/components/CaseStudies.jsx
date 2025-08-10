@@ -68,7 +68,7 @@ const CaseStudies = () => {
   ]
 
   return (
-    <section id="cases" className="py-20 bg-white scroll-mt-16">
+    <section id="cases" className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -91,7 +91,7 @@ const CaseStudies = () => {
           {cases.map((caseItem, index) => (
             <motion.div
               key={caseItem.id}
-              className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col"
+              className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 h-full flex flex-col border border-white/30"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}

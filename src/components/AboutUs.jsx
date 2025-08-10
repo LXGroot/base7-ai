@@ -108,7 +108,7 @@ const AboutUs = () => {
   ]
 
   return (
-    <section id="about" className="py-20 bg-white scroll-mt-16">
+    <section id="about" className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -190,7 +190,7 @@ const AboutUs = () => {
             {values.map((value, index) => (
               <motion.div
                 key={index}
-                className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col"
+                className="text-center p-6 bg-white/80 backdrop-blur-sm rounded-xl shadow-xl hover:shadow-2xl hover:scale-[1.05] transition-all duration-500 border border-white/30 h-full flex flex-col"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}

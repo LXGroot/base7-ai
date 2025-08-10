@@ -72,7 +72,7 @@ const CoreBusiness = () => {
   ]
 
   return (
-    <section id="solutions" className="py-20 bg-gray-50 scroll-mt-16">
+    <section id="solutions" className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -95,7 +95,7 @@ const CoreBusiness = () => {
           {businesses.map((business, index) => (
             <motion.div
               key={business.id}
-              className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-8 sm:gap-10 lg:gap-12`}
+              className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-8 sm:gap-10 lg:gap-12 p-6 sm:p-8 lg:p-12 bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 border border-white/20`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}

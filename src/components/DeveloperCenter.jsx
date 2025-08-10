@@ -206,7 +206,7 @@ getDeviceData();`
   ]
 
   return (
-    <section id="developers" className="py-20 bg-gray-50 scroll-mt-16">
+    <section id="developers" className="py-20 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -216,10 +216,10 @@ getDeviceData();`
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
             开发者中心
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light tracking-wide leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light tracking-wide leading-relaxed">
             企业客户专用的API和SDK，让您轻松集成我们的AI、机器人和物联网技术
           </p>
         </motion.div>
