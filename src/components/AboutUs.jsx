@@ -130,48 +130,63 @@ const AboutUs = () => {
         {/* Mission, Vision, Values */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
           <motion.div
-            className="text-center p-8 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl"
+            className="group relative text-center p-8 bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl border border-blue-100/50 hover:border-blue-200 transition-all duration-500 hover:scale-[1.02] overflow-hidden"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <Target className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">使命</h3>
-            <p className="text-slate-700 leading-relaxed font-light tracking-wide">
-              通过前沿技术创新，推动传统产业数字化转型，
-              为人类创造更智能、更美好的生活体验
-            </p>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-50/80 to-cyan-50/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="relative z-10">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <Target className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight group-hover:text-blue-700 transition-colors duration-300">使命</h3>
+              <p className="text-slate-700 leading-relaxed font-light tracking-wide group-hover:text-slate-800 transition-colors duration-300">
+                通过前沿技术创新，推动传统产业数字化转型，
+                为人类创造更智能、更美好的生活体验
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
-            className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl"
+            className="group relative text-center p-8 bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl border border-purple-100/50 hover:border-purple-200 transition-all duration-500 hover:scale-[1.02] overflow-hidden"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Eye className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">愿景</h3>
-            <p className="text-slate-700 leading-relaxed font-light tracking-wide">
-              成为全球领先的智能技术解决方案提供商，
-              引领物理世界与数字智能融合的新时代
-            </p>
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-50/80 to-pink-50/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="relative z-10">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <Eye className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight group-hover:text-purple-700 transition-colors duration-300">愿景</h3>
+              <p className="text-slate-700 leading-relaxed font-light tracking-wide group-hover:text-slate-800 transition-colors duration-300">
+                成为全球领先的智能技术解决方案提供商，
+                引领物理世界与数字智能融合的新时代
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
-            className="text-center p-8 bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl"
+            className="group relative text-center p-8 bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl border border-green-100/50 hover:border-green-200 transition-all duration-500 hover:scale-[1.02] overflow-hidden"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <Heart className="w-12 h-12 text-green-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">价值观</h3>
-            <p className="text-slate-700 leading-relaxed font-light tracking-wide">
-              创新、诚信、卓越、合作 - 
-              这是我们团队共同坚持的核心价值观
-            </p>
+            <div className="absolute inset-0 bg-gradient-to-br from-green-50/80 to-teal-50/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="relative z-10">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <Heart className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight group-hover:text-green-700 transition-colors duration-300">价值观</h3>
+              <p className="text-slate-700 leading-relaxed font-light tracking-wide group-hover:text-slate-800 transition-colors duration-300">
+                创新、诚信、卓越、合作 - 
+                这是我们团队共同坚持的核心价值观
+              </p>
+            </div>
           </motion.div>
         </div>
 
