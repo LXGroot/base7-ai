@@ -18,7 +18,7 @@ const CoreBusiness = () => {
         '自学习系统'
       ],
       image: 
-        '/ai-model.webp',
+        './ai-model.webp',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
@@ -34,7 +34,7 @@ const CoreBusiness = () => {
         '人机协作系统'
       ],
       image: 
-        '/robotics-lab.jpg',
+        './robotics-lab.jpg',
       gradient: 'from-purple-500 to-pink-500'
     },
     {
@@ -50,7 +50,7 @@ const CoreBusiness = () => {
         '设备管理平台'
       ],
       image: 
-        '/4sy7M89IUVpX.png',
+        './4sy7M89IUVpX.png',
       gradient: 'from-green-500 to-teal-500'
     },
     {
@@ -66,7 +66,7 @@ const CoreBusiness = () => {
         '沉浸式体验'
       ],
       image: 
-        '/stage-integration.jpg',
+        './stage-integration.jpg',
       gradient: 'from-orange-500 to-red-500'
     }
   ]

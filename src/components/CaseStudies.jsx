@@ -11,7 +11,7 @@ const CaseStudies = () => {
       client: '国际知名艺人巡演',
       category: '舞台系统集成',
       description: '为全球顶级艺人提供完整的舞台技术解决方案，包括动态灯光矩阵、专业音响系统和超高清显示系统，创造震撼的视听体验。',
-      image: '/concert-stage.jpg',
+      image: './concert-stage.jpg',
       results: [
         { label: '观众满意度', value: '99.8%' },
         { label: '技术稳定性', value: '100%' },
@@ -26,7 +26,7 @@ const CaseStudies = () => {
       client: '某知名艺术博物馆',
       category: '舞台系统集成',
       description: '运用先进的投影技术、交互感应和音响系统，打造沉浸式的数字艺术体验空间，让观众身临其境地感受艺术的魅力。',
-      image: '/digital-art.jpg',
+      image: './digital-art.jpg',
       results: [
         { label: '参观人数', value: '50万+' },
         { label: '互动体验', value: '95%' },
@@ -41,7 +41,7 @@ const CaseStudies = () => {
       client: '某一线城市政府',
       category: '物联网平台',
       description: '构建覆盖全城的物联网感知网络，实现交通、环境、安全等多维度数据的实时监控和智能分析，提升城市管理效率。',
-      image: '/smart-city.jpg',
+      image: './smart-city.jpg',
       results: [
         { label: '设备接入', value: '100万+' },
         { label: '数据处理', value: '1TB/日' },
@@ -56,7 +56,7 @@ const CaseStudies = () => {
       client: '大型制造企业',
       category: 'AI + 机器人',
       description: '通过AI驱动的机器人系统，实现生产线的全面自动化升级，提高生产效率，降低人工成本，确保产品质量的一致性。',
-      image: '/smart-factory.jpg',
+      image: './smart-factory.jpg',
       results: [
         { label: '效率提升', value: '85%' },
         { label: '成本降低', value: '60%' },
