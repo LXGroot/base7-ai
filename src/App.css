@@ -118,3 +118,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 图像渲染优化 */
+.image-render-crisp {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  object-fit: contain;
+  object-position: center;
+}
